@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial_begin/Column.dart';
 import 'package:flutter_tutorial_begin/Row.dart';
 
 void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RowPage(),
+      home: ColumnPage(),
     ));
 
 class HomePage extends StatefulWidget {
